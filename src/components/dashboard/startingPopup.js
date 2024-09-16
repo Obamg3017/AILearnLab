@@ -67,8 +67,8 @@ const StartingPopup = ({ handleSetPopup, handleClose }) => {
           Welcome to AILearnLab! This is the perfect place for you to master new
           skills and languages, one step at a time. You can set your goals,
           follow our guided learning pathways, and unleash your full potential
-          with the power of AI. Don't settle for average - elevate your skills
-          and seize new opportunities with AILearnLab!
+          with the power of AI. Don&apos;t settle for average - elevate your
+          skills and seize new opportunities with AILearnLab!
         </p>
         <button
           onClick={handleAccept}

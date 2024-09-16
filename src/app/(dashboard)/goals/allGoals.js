@@ -26,6 +26,7 @@ const AllGoals = ({ userData, deleteGoal, setUserData }) => {
               >
                 Remove
               </button>
+
             </div>
             <SingleGoal
               title={key}
