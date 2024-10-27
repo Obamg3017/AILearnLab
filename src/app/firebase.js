@@ -8,12 +8,12 @@ import { getStorage } from "firebase/storage";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyD2l1yZoZtvqZwlfIg9S0KE1w_0UyJE1No",
-  authDomain: "ailearnlab.firebaseapp.com",
-  projectId: "ailearnlab",
-  storageBucket: "ailearnlab.appspot.com",
-  messagingSenderId: "893004513302",
-  appId: "1:893004513302:web:8a3baf40c4537c4ff43537"
+  apiKey: process.env.FIREBASE_API_KEY,
+  authDomain: process.env.FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.FIREBASE_PROJECT_ID,
+  storageBucket: process.env.FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.FIREBASE_APP_ID,
 };
 
 // Initialize Firebase
