@@ -2,6 +2,7 @@
 
 AILearnLab is an innovative educational platform designed to simplify complex learning subjects into actionable steps. The application provides users with personalized learning paths and tracks their progress through interactive charts. Built using modern web technologies, AILearnLab leverages advanced tools to offer a seamless and engaging learning experience.
 
+## [Deployed Website — AILearnLab](https://ai-learn-kn4yzuz7o-femis-projects-0b4ffa2d.vercel.app/auth/login)
 ## Features
 
 - **Personalized Learning Paths**: Utilizes the OpenAI API to generate tailored learning steps based on user goals.
